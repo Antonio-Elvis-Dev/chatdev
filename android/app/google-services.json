@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "814671268503",
+    "project_id": "chatdev-45529",
+    "storage_bucket": "chatdev-45529.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814671268503:android:af612018b57d83fbfbf7d2",
+        "android_client_info": {
+          "package_name": "com.chatdev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814671268503-cq8gtfar84bj898l0u6v68m9ur5mt48u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX2mXTTAPExkttq-TR2a-AquvXlNfLeYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814671268503-cq8gtfar84bj898l0u6v68m9ur5mt48u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
