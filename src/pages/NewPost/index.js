@@ -1,10 +1,9 @@
-import { View, Text } from 'react-native'
-import React from 'react'
-
+import React from 'react';
+import {Container, ShareButton, ShareButtonText} from './styled';
 export default function NewPost() {
   return (
-    <View>
-      <Text>NewPost</Text>
-    </View>
-  )
+    <Container>
+      
+    </Container>
+  );
 }

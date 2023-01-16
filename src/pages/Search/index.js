@@ -1,10 +1,13 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import {View, Text} from 'react-native';
+import React from 'react';
+
+import {Container, SearchUser, SearchText} from './styled';
 
 export default function Search() {
   return (
-    <View>
-      <Text>Search</Text>
-    </View>
-  )
+    <Container>
+      <SearchUser placeholder={'Pesquisar'} />
+      
+    </Container>
+  );
 }
