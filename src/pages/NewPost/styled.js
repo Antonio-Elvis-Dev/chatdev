@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.View`
   flex: 1;
-  background-color: #36393f;
+  background-color: #404349;
 `;
 
 export const ShareButton = styled.TouchableOpacity`
@@ -11,6 +11,15 @@ export const ShareButton = styled.TouchableOpacity`
   padding: 5px;
   border-radius: 5px;
 `;
+
+export const Input = styled.TextInput`
+  color: #fff;
+  background-color: transparent;
+  margin: 10px;
+  font-size: 20px;
+  
+`;
+
 export const ShareButtonText = styled.Text`
   color: #fff;
   font-size: 15px;

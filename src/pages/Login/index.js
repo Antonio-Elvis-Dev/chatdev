@@ -62,11 +62,13 @@ export default function Login() {
             placeholder="teste@gmail.com"
             value={email}
             onChangeText={text => setEmail(text)}
+            placeholderTextColor="#838995"
           />
           <Input
             placeholder="*********"
             value={password}
             onChangeText={text => setPassword(text)}
+            placeholderTextColor="#838995"
           />
           <Button onPress={handleSignIn}>
             {loadingAuth ? (
@@ -93,16 +95,19 @@ export default function Login() {
           placeholder="Seu nome"
           value={name}
           onChangeText={text => setName(text)}
+          placeholderTextColor="#838995"
         />
         <Input
           placeholder="teste@gmail.com"
           value={email}
           onChangeText={text => setEmail(text)}
+          placeholderTextColor="#838995"
         />
         <Input
           placeholder="*********"
           value={password}
           onChangeText={text => setPassword(text)}
+          placeholderTextColor="#838995"
         />
         <Button onPress={handleSignUp}>
           {loadingAuth ? (

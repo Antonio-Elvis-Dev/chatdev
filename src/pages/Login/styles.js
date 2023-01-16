@@ -22,6 +22,7 @@ export const Input = styled.TextInput`
 background-color: #ffffff;
 border-radius: 10px;
 margin-top: 10px;
+color: #404349;
 width: 80%;
 height: 45px;
 padding: 5px;

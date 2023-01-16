@@ -11,6 +11,7 @@ export const SearchUser = styled.TextInput`
     height: 45px;
     width: 90%;
     background-color: #FFF;
+    color: #404349;
     padding: 5px;
     padding-left: 10px;
     flex-direction:row;

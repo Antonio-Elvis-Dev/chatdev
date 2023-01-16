@@ -6,7 +6,7 @@ import {Container, SearchUser, SearchText} from './styled';
 export default function Search() {
   return (
     <Container>
-      <SearchUser placeholder={'Pesquisar'} />
+      <SearchUser placeholder={'Pesquisar'} placeholderTextColor="#838995" />
       
     </Container>
   );

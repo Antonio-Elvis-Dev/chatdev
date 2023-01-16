@@ -1,8 +1,7 @@
-import {ActivityIndicator} from 'react-native';
-import React, {useContext} from 'react';
+import {ActivityIndicator, Modal} from 'react-native';
+import React, {useContext, useState} from 'react';
 import {AuthContext} from '../../contexts';
 import Header from '../../components/Header';
-
 import {
   Container,
   EmailText,
@@ -17,6 +16,7 @@ import {
 export default function Profile() {
   const {signOut, user, loadingAuth} = useContext(AuthContext);
 
+  const [modalVisible, setModalVisible] = useState(false);
   async function handleSignOut() {
     signOut();
   }
@@ -26,12 +26,16 @@ export default function Profile() {
       <Image source={require('../../assets/avatar.png')} />
       <NameText>{user?.nome}</NameText>
       <EmailText>{user?.email}</EmailText>
-      <UpdateButton>
+      <UpdateButton onPress={{}
+        // () => setModalVisible(true)
+        }
+        >
         <UpdateButtonText>Atualizar Perfil</UpdateButtonText>
       </UpdateButton>
       <LogOutButton onPress={handleSignOut}>
         <LogOutButtonText>Sair</LogOutButtonText>
       </LogOutButton>
+      <Modal visible={modalVisible} animationType="slide" />
     </Container>
   );
 }
